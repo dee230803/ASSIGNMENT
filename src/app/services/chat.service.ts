@@ -73,7 +73,6 @@ export class ChatService {
     });
   }
 
-  // Login Friendly Chat.
   // Signs-in Friendly Chat.
 login() {
   signInWithPopup(this.auth, this.provider).then((result) => {
@@ -83,7 +82,6 @@ login() {
   })
 }
 
-  // Logout of Friendly Chat.
   // Logout of Friendly Chat.
 logout() {
   signOut(this.auth).then(() => {
