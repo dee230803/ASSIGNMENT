@@ -171,15 +171,15 @@ saveImageMessage = async(file: any) => {
   } catch (error) {
     console.error('There was an error uploading a file to Cloud Storage:', error);
   }
-}
+};
 
 async updateData(path: string, data: any) {}
 
-  async deleteData(path: string) {}
+async deleteData(path: string) {}
 
-  getDocData(path: string) {}
+getDocData(path: string) {}
 
-  getCollectionData(path: string) {}
+getCollectionData(path: string) {}
 
 async uploadToStorage(
   path: string,
