@@ -73,7 +73,7 @@ export class ChatService {
     });
   }
 
-  // Signs-in Friendly Chat.
+ // Signs-in Friendly Chat.
 login() {
   signInWithPopup(this.auth, this.provider).then((result) => {
       const credential = GoogleAuthProvider.credentialFromResult(result);
@@ -82,7 +82,7 @@ login() {
   })
 }
 
-  // Logout of Friendly Chat.
+ // Logout of Friendly Chat.
 logout() {
   signOut(this.auth).then(() => {
       this.router.navigate(['/', 'login'])
@@ -133,6 +133,7 @@ addMessage = async (
     return;
   }
 };
+
   // Saves a new message to Cloud Firestore.
   saveTextMessage = async (messageText: string) => {
     return this.addMessage(messageText, null);
@@ -171,6 +172,23 @@ saveImageMessage = async(file: any) => {
     console.error('There was an error uploading a file to Cloud Storage:', error);
   }
 }
+
+async updateData(path: string, data: any) {}
+
+  async deleteData(path: string) {}
+
+  getDocData(path: string) {}
+
+  getCollectionData(path: string) {}
+
+async uploadToStorage(
+  path: string,
+  input: HTMLInputElement,
+  contentType: any
+) {
+  return null;
+}
+
   // Requests permissions to show notifications.
 requestNotificationsPermissions = async () => {
   console.log('Requesting notifications permission...');
