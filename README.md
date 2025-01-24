@@ -1,3 +1,10 @@
+NAME:NURQURRATU ADILAH BINTII SARBINI
+STUDENT ID: 2023663362
+GROUP: CDCS2703B1
+LECTURER NAME :EN. MUHAMMAD ATIF BIN MOHD RAMLAN
+
+
+
 # Friendlychat
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
