@@ -5,7 +5,7 @@ LECTURER NAME :EN. MUHAMMAD ATIF BIN MOHD RAMLAN
 
 Lab Angular & Firebase issues
 
--Users are able to choose the pictures they wanted to send, but when click on the button to send, there will only be loading  multiple "Failed to load resource: net::ERR_CONNECTION_REFUSED" errors are present. Pictures will load continuously even with multiple refresh.
+-Users are able to choose the pictures they wanted to send, but when click on the button to send, there will only be loading  multiple "Failed to load resource: net::ERR_CONNECTION_REFUSED" errors are present. Pictures will load contin     uously even with multiple refresh.
 
 
 -User authentication is supposed to be automated. However, my friendlychat unable to detectc any users even though many users can sign-in and talk to each other.
